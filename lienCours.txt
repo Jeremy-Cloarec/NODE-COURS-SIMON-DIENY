@@ -1,0 +1,18 @@
+https://www.youtube.com/watch?v=NRxzvpdduvQ
+
+
+package.json
+But: 
+1. décrire le projet
+2. lister les dépendances dont on a besoin pour construire l'API rest
+3. Mettre en place des scipt et automatiser certaines tâches. 
+
+Pour configurer le package JSON : npm init
+
+Installer les dépendances :
+
+- Express : npm install express --save 
+Création du dossier node_modules et package_lock.json
+
+! Ne jamais maodifier le le dosier node_modules
+
