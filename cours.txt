@@ -70,3 +70,35 @@ Création du dossier node_modules et package_lock.json
 
 ! Ne jamais maodifier le dosier node_modules
 
+
+Installation de nodemon : execute node JS en tache de fond :
+npm install --save-dev nodemon
+
+Existe 2 types de dépendance :
+1 : de notre projet (devDependencies), on utilise --save
+2 : pendant le développent uniquement : --save-dev
+
+////////////////////////////////////////////////////
+POINT DE TERMINAISON  
+////////////////////////////////////////////////////
+
+Création d'une nouvelle route dans express
+Point de terminaison Express = app.METHODE(CHEMIN,GESTIONNAIRE(req,res))
+- app : instance de notre application
+- La methode http utilisée
+- Le chemin vers la ressource
+- La methode gestionnaire pour notre point de terminaison
+
+
+Récupérer l'id de l'URL avec req.params.id
+
+Gérer plusieurs paramètres
+
+Time : 1:14:09 
+
+
+
+
+
+
+
