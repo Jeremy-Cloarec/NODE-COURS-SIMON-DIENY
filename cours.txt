@@ -1,0 +1,72 @@
+https://www.youtube.com/watch?v=NRxzvpdduvQ
+
+
+Pour chaque navigateur il y a un moteur pour lire le JS
+
+Pour Node, c'est le moteur V8 utilisé/Google. 
+
+******Pourquoi est-il rapide ? *********
+
+1/ Grace au moteur V8
+Méthode de compilation : just in time : ne passe pas par un compilateur, pas d'étape intermédiaire. 
+
+2/ Modèle non bloquant :
+Traitement asynchrone. 
+
+******** Que peux-t-on faire ? **********
+
+1/ Site web entier avec serveur. 
+Mais déconseillé. Risque de se mélanger entre JS duserveur et celui du client.
+
+2/ PPlt utilisé pour le back-end. 
+
+- Gérer les accès à la bdd : sauvegrder utilisateur, supprimer des données etc. La même API REST peut ê utilisé pour aplli et site web. 
+
+3/ Application en temps réel
+Beson de naviguer rapideemnt entre front et back : ex whatsApp, Google Doc.
+
+4/ Un script
+Programme qu'un peut écrire sur une machine locale.
+
+
+*******API Rest
+
+ECMA Script 6
+
+TypeScript : permet d'ajouter le typage à JS. 
+Permet de garder le type de données pendant toute la durée de la session.
+
+
+NODE JS
+
+Deux outils : 
+1/ Node JS
+2/ NPM : permet de gérer les paquets JS
+
+Ouvrir un terminal : Wind + R > cmd entrée
+
+Démarrer un projet
+
+1/ Créer un dossier
+2/ Ajouter un fichier app.js : point d'entrée de notre application. 
+3/Ajouter une instruction console.log("Hello") dans ce fichier. 
+4/On execute grace à la commande node app .js
+
+C'est node qui execute ce code
+
+Besoin d'installer package.json
+But: 
+1. décrire le projet
+2. lister les dépendances dont on a besoin pour construire l'API rest
+3. Mettre en place des script et automatiser certaines tâches. 
+
+Pour configurer le package JSON : npm init
+
+Installer les dépendances :
+
+- Express : npm install express --save 
+
+Création du dossier node_modules et package_lock.json
+
+! Ne jamais maodifier le dosier node_modules
+

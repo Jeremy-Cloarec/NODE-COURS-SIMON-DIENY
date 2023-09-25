@@ -1,7 +1,7 @@
 {
-  "name": "node-cours-simon-dieny",
+  "name": "node-cours",
   "version": "1.0.0",
-  "description": "An awesome API rest to handle some pokemons. ",
+  "description": "My first lesson with Node ",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
