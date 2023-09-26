@@ -52,6 +52,8 @@ Démarrer un projet
 3/Ajouter une instruction console.log("Hello") dans ce fichier. 
 4/On execute grace à la commande node app .js
 
+Démarrer l'appli : npm run start
+
 C'est node qui execute ce code
 
 Besoin d'installer package.json
@@ -68,11 +70,13 @@ Installer les dépendances :
 
 Création du dossier node_modules et package_lock.json
 
-! Ne jamais maodifier le dosier node_modules
+! Ne jamais modifier le dosier node_modules
 
 
 Installation de nodemon : execute node JS en tache de fond :
 npm install --save-dev nodemon
+
+Execution : 
 
 Existe 2 types de dépendance :
 1 : de notre projet (devDependencies), on utilise --save
@@ -96,9 +100,31 @@ Gérer plusieurs paramètres
 
 Time : 1:14:09 
 
+////////////////////////////////////////////////////
+Mettre en place un vrai jeu de données 
+////////////////////////////////////////////////////
+
+Liste de quelques pokemon
+Placer une liste dans un module js
+
+////////////////////////////////////////////////////
+Présentation des réponses HTTP
+////////////////////////////////////////////////////
+
+Role d'une API rest consiste : 
+-Intercepter une requete http
+- Retourner une reponse http contenant les infos demandées par le client au format JSON
+
+Dans la réponse http, controler :
+- les données
+-Le format JSON
+- Le type MIME : l'ajouter sous forme d'entête : Content-Type : application/json
+- le code de statut : code à 3 chiffre indiquant le statut de la reponse. 
+EX : code 200 : vous avez bien navigué. Comme le code 404 : Ressource non trouvée. 
+
+////////////////////////////////////////////////////
+Retourner une réponse JSON
+////////////////////////////////////////////////////
 
 
-
-
-
-
+1:28/05
