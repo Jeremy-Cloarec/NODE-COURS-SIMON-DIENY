@@ -1,6 +1,5 @@
 // console.log("Coucou, Node !")
 
-
 // On récupère le paquet express dans notre code. On va chercher la dépendance express dans notre module
 
 const express = require('express')

@@ -1,6 +1,5 @@
 https://www.youtube.com/watch?v=NRxzvpdduvQ
 
-
 Pour chaque navigateur il y a un moteur pour lire le JS
 
 Pour Node, c'est le moteur V8 utilisé/Google. 
